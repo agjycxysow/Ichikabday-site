@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 500px;
+    /* border-radius: 10%; */
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 900px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://i.pinimg.com/564x/7e/67/fe/7e67fe56d35450f617b37fc2f0ed608b.jpg");
+    background-size: cover;
+}
+
+#a:hover {
+    background-image: url("https://i.pinimg.com/564x/79/d2/8a/79d28aa4dfc6407a79cdc2ed1c05bf76.jpg")
+}
+
+.ichika-img {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 800px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://cdn.donmai.us/sample/6f/fb/__nakano_ichika_go_toubun_no_hanayome_drawn_by_kakaon__sample-6ffbbe35204725b536713bbb3b697b9b.jpg");
+    background-size: cover;
+}
+
+.ichika-img:hover {
+    max-width: 600px;
+    background-image: url("https://i.pinimg.com/originals/c7/ab/d0/c7abd00fe639ba30ccd26bdc75146b15.jpg")
+}
